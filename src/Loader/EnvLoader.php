@@ -10,7 +10,7 @@ use Nitier\ConfigLoader\Interface\LoaderInterface;
  * Env Loader
  * @copyright Copyright (c) 2025, Nitier
  * @license MIT
- * @link    https://github.com/nitier/config-loader
+ * @link    https://github.com/nitier/configloader
  */
 class EnvLoader implements LoaderInterface
 {
