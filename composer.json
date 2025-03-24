@@ -1,0 +1,18 @@
+{
+    "name": "nitier/config-loader",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nitier\\ConfigLoader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nitier",
+            "email": "1d98off@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^7.2"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "example-config",
+  "version": "1.0.0",
+  "description": "Example configuration file",
+  "settings": {
+    "port": 3000,
+    "host": "localhost",
+    "debug": false,
+    "timeout": 5000,
+    "maxRetries": 3
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "mydb",
+    "username": "admin",
+    "password": "secret"
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/app.log",
+    "maxSize": "10mb",
+    "maxFiles": 5
+  },
+  "api": {
+    "baseUrl": "/api/v1",
+    "rateLimit": {
+      "windowMs": 900000,
+      "max": 100
+    },
+    "cors": {
+      "enabled": true,
+      "origins": ["*"]
+    }
+  }
+}
