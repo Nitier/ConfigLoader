@@ -11,8 +11,5 @@
             "name": "Nitier",
             "email": "1d98off@gmail.com"
         }
-    ],
-    "require": {
-        "symfony/yaml": "^7.2"
-    }
+    ]
 }
