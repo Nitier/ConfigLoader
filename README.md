@@ -5,7 +5,7 @@
 ## 📦 Installation  
 
 ```bash
-composer require nitier/configloader
+composer require nitier/config-loader
 ```
 
 ## 🌟 Features  
